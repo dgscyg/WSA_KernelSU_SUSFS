@@ -29,7 +29,7 @@ jobs:
             wsa_arch: "x86_64"
           - wsa_branch: "5.15.104.4"
             wsa_arch: "arm64"
-    uses: ./.github/workflows/wsa-kernel.yml
+    uses: ./.github/workflows/build-wsa-kernel.yml
     secrets: inherit
     with:
       android_version: "android13"
